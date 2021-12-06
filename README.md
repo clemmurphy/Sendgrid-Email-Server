@@ -5,10 +5,10 @@ Simple email server to send mail via SendGrid. Requires additional API key. Requ
 ```
 {
 	"from": {
-		"email": "clemmurphy@gmail.com",
-		"name": "Clem"
+		"email": "verified_email@test.com",
+		"name": "Name"
 	},
-	"to": "clemmurphy@gmail.com",
+	"to": "recipient_email@test.com",
 	"subject": "Test email",
 	"text": "Email body"
 }
